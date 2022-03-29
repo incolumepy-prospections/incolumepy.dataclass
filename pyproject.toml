@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "incolumepy.prospect.dataclass"
+version = "0.1.0"
+description = "Prospections over Python Dataclass"
+authors = ["Britodfbr <britodfbr@gmail.com>"]
+license = "GPLv2"
+packages=[
+    {include = 'incolumepy/prospect', from=''},
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6.15"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
