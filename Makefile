@@ -3,6 +3,8 @@ DIRECTORIES = $$(find -wholename ./src -o -wholename ./incolumepy -o -wholename 
 PKGNAME = 'incolumepy'
 REPORT_DIR = 'coverage_report'
 PYTHON_VERSION := 3.10
+URLCOMPARE := 'https://github.com/incolumepy-prospections/incolumepy.dataclass/compare/'
+CHANGELOGFILE := 'CHANGELOG.md'
 
 .PHONY: black
 black:   ##Apply code style black format
@@ -71,7 +73,7 @@ check-pydocstyle: ## docstring checking
 .PHONY: changelog
 changelog:   ## Update changelog file
 	@poetry run python -c "from incolumepy.utils import update_changelog; \
-	update_changelog('CHANGELOG.md', urlcompare='https://gitlab.com/development-incolume/saj_projects/-/compare/')"
+	update_changelog($(CHANGELOGFILE), urlcompare=$(URLCOMPARE))"
 	@echo 'Atualização de CHANGESLOG realizada com sucesso.'
 
 .PHONY: docsgen
