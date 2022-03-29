@@ -9,9 +9,9 @@ This file was automatically generated for [incolumepy.utils](https://gitlab.com/
 
 ---
 ## [0.2.0]	2022-03-29:
-	Added: Quality Assurancetools
+	Added: Quality Assurance tools
 ## [0.1.0]	2022-03-29:
 	Added: initial configuration
 ---
 
-[0.2.0]: https://gitlab.com/development-incolume/saj_projects/-/compare//0.1.0...0.2.0
+[0.2.0]: https://github.com/incolumepy-prospections/incolumepy.dataclass/compare//0.1.0...0.2.0
