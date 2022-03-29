@@ -7,6 +7,7 @@ authors = ["Britodfbr <britodfbr@gmail.com>"]
 license = "GPLv2"
 packages=[
     {include = 'incolumepy/prospect', from=''},
+]
 classifiers = [
   'Development Status :: 5 - Production/Stable',
   'Operating System :: OS Independent',
@@ -45,6 +46,21 @@ incolumepy-utils = 'incolumepy.utils.main:run'
 python = "^3.6.2"
 
 [tool.poetry.dev-dependencies]
+pytest-cov = "^3.0.0"
+black = "^19.3b0"
+isort = "^5.1"
+pydocstyle = "^6.1.1"
+pylint = "^2.1"
+flake8 = "^4.0.1"
+tox = "^3.24.5"
+pytest-mock = "^3.0"
+Sphinx = "^4.0"
+furo = "^2022.3.4"
+myst-parser = "^0.16"
+mypy = "^0.942"
+types-toml = "^0.10.4"
+mypy-extensions = "^0.4.3"
+safety = "^1.10.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
