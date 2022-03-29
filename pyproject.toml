@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "incolumepy.prospect.dataclass"
-version = "0.2.0-alpha.0"
+version = "0.2.0-alpha.1"
 description = "Prospections over Python Dataclass"
 keywords = ['python', 'incolumepy']
 authors = ["Britodfbr <britodfbr@gmail.com>"]
