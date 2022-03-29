@@ -61,6 +61,7 @@ mypy = "^0.942"
 types-toml = "^0.10.4"
 mypy-extensions = "^0.4.3"
 safety = "^1.10.3"
+"incolumepy.utils" = {git = "https://gitlab.com/development-incolume/incolumepy.utils.git", branch = "tags"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
