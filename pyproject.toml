@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "incolumepy.prospect.dataclass"
-version = "0.3.0"
+version = "0.4.0"
 description = "Prospections over Python Dataclass"
 keywords = ['python', 'incolumepy']
 authors = ["Britodfbr <britodfbr@gmail.com>"]
@@ -43,7 +43,13 @@ exclude = [
 incolumepy-utils = 'incolumepy.utils.main:run'
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
+python = "^3.10"
+firebase-admin = "^5.2.0"
+gspread = "^5.3.0"
+oauth2client = "^4.1.3"
+tqdm = "^4.63.1"
+httpx = "^0.22.0"
+pandas = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest-cov = "^3.0.0"
@@ -62,6 +68,7 @@ types-toml = "^0.10.4"
 mypy-extensions = "^0.4.3"
 safety = "^1.10.3"
 "incolumepy.utils" = {git = "https://gitlab.com/development-incolume/incolumepy.utils.git", branch = "tags"}
+ipython = "^8.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
